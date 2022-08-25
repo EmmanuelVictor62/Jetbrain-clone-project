@@ -197,7 +197,7 @@ font-family:sans-serif;
     }
     
     .FourthPage__Title{
-        font-size:32px;
+        font-size:34px;
     }
     
     .Fourth-Page-Layer{
@@ -205,9 +205,9 @@ font-family:sans-serif;
     }
     
     .Fourth-Page-Layer__Description{
-        font-size:20px;
-        width:43%;
-        line-height: 26px;
+        font-size:23px;
+        width:49%;
+        line-height: 28px;
         margin-top: 14px;
     }
 
@@ -218,12 +218,12 @@ font-family:sans-serif;
     }
 
     .Fourth-Page-Layer__Count{
-        font-size:36px;
+        font-size:40px;
         height:50px;
     }
 
     .Fourth-Page-Layer__Count-description{
-        font-size:14px;
+        font-size:16px;
         margin:5px 0 0 4px;
     }
 
@@ -259,28 +259,28 @@ font-family:sans-serif;
 
     .Testimonial-wrapper__person{
         margin: 0;
-        font-size: 14px;
+        font-size: 18px;
         color:rgba(255,255,255,.9)
     }
 
     .Testimonial-wrapper__company{
-        font-size: 13px;
+        font-size: 18px;
     }
 
     .Testimonial-wrapper__testimony{
-        font-size: 18px;
+        font-size: 20px;
         line-height:26px;
-        width:70%;
+        width:80%;
         margin:20px 0px 10px 0px;
     }
 
     .Testimonial-footer{
         margin-top: 12px;
-        padding:0px 10px 0px 20px;
+        padding:0px 15px 0px 20px;
     }
 
     .Testimonial-footer__button{
-        font-size:14px;
+        font-size:16px;
         padding:10px 30px;
     }
 
@@ -290,15 +290,15 @@ font-family:sans-serif;
     }
 
     .Testimonial-footer__slider-number{
-        font-size:14px
+        font-size:16px
     }
 
     .fa-left-long{
-        font-size:14px;
+        font-size:16px;
     }
 
     .fa-right-long{
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 

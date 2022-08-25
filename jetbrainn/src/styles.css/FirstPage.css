@@ -467,14 +467,14 @@
     }
 
     .Banner-1__Title{
-        font-size:24px;
+        font-size:26px;
         line-height: 28px;
         height:fit-content
     }
 
     .Banner-1--BETA{
         padding:3px 9px;
-        font-size:11px;
+        font-size:13px;
         margin-left: 8px;
         height:17px;
         width:max-content;
@@ -489,7 +489,7 @@
     }
 
     .Banner-1__description{
-        font-size: 17px;
+        font-size: 19px;
         line-height: 26px;
     }
 
@@ -523,7 +523,7 @@
     }
 
     .First-Tile__Title{
-        font-size: 17px;
+        font-size: 19px;
         font-weight: 530;
     }
 
@@ -534,13 +534,13 @@
     }
 
     .First-Tile__description{
-        font-size: 11px;
+        font-size: 13px;
         width:95%;
     }
 
     .First-Tile__button{
-        font-size: 14px;
-        padding:7px 15px;
+        font-size: 16px;
+        padding:8px 15px;
         margin-top:21px;
         width:fit-content;
         height: fit-content;
@@ -560,7 +560,7 @@
     .Second-Tile__Title{
         margin:12px 0 0 0;
         font-size: 18px;
-        font-weight: 550;
+        font-weight: 530;
         width: 70%;
     }
 

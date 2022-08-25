@@ -186,9 +186,9 @@
         margin:720px 20px 0px 15px
     }
     .FifthPage__title{
-        font-size: 20px;
-        width:80%;
-        line-height: 26px;
+        font-size: 23px;
+        width:88%;
+        line-height: 29px;
         font-weight:100;
     }
 
@@ -233,17 +233,20 @@
 
     .Customer-section{
         width:100%;
+        padding-bottom: 60px;
     }
 
     .Customer-section-title{
-        font-size:30px;
+        font-size:35px;
+        font-weight: 530;
     }
 
     .Customer-section-subtitle{
-        font-size:20px;
-        line-height: 26px;
-        width:70%;
+        font-size:23px;
+        line-height: 29px;
+        width:80%;
         margin:16px 0px 16px 0px;
+        color: rgba(0,0,0,.8);
     }
 
     .Customer-wrapper-box{
@@ -252,25 +255,25 @@
     }
 
     .Customer{
-        width:80%;
+        width:82%;
         padding:16px;
         height:fit-content;
     }
 
     .Customer__name{
-        font-size:18px;
+        font-size:20px;
         font-weight:530;
     }
 
     .Customer__description{
         margin-top:16px;
-        font-size:14px;
-        line-height: 21px;
-        width:90%;
+        font-size:16px;
+        line-height: 24px;
+        width:98%;
     }
 
     .Customer__subdescription{
-        font-size: 14px;
+        font-size: 16px;
         margin-top: 12px;
         width:90%;
         line-height:20px;
@@ -281,11 +284,11 @@
     }
 
     .Customer__read-link{
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .Customer-section__footer-button{
-        font-size:14px;
+        font-size:16px;
         padding:9px 29px;
     }
 }

@@ -220,11 +220,11 @@
     }
 
     .Footer__div-title{
-        font-size: 11px;
+        font-size: 15px;
     }
 
     .Footer-1__link{
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .Footer-2{
@@ -243,12 +243,12 @@
 
     .Footer-bottom-link-wrapper{
         flex-wrap: wrap;
-        width:80%;
+        width:90%;
         margin-top: 10px;
     }
 
     .Footer-bottom__link{
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .Footer-bottom-copyright-box{
@@ -256,7 +256,7 @@
     }
 
     .Footer-bottom-copyright-box__description{
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .Footer-2__right-section{

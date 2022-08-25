@@ -65,7 +65,7 @@
     }
 
     .ThirdPage__Heading{
-        font-size:26px;
+        font-size:28px;
     }
 
     .ThirdPage-Content-box{
@@ -79,24 +79,24 @@
     }
 
     .ThirdPage-Content-box__Date{
-        font-size:14px
+        font-size:16px
     }
 
     .ThirdPage-Content-box__Title{
         margin-top: 10px;
-        font-size: 17px;
-        width:80%;
+        font-size: 19px;
+        width:90%;
     }
 
     .ThirdPage-Content-box__Description{
         margin-top: 10px;
-        font-size: 14px;
-        width:85%;
+        font-size: 16px;
+        width:100%;
         line-height:21px;
     }
 
     .ThirdPage-Content-box__link{
-        font-size:14px;
+        font-size:16px;
         margin-top:10px;
     }
 }
