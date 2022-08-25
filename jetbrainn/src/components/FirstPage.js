@@ -1,5 +1,4 @@
 import '../styles.css/FirstPage.css'
-import '../styles.css/media-query.css'
 import Firstlogo from '../Thumbnails/jetbrains-space-image.png'
 import Riderlogo from '../Thumbnails/rider-flow-logo.png'
 import Jetbrainslogo from '../Thumbnails/jetbrains.png'

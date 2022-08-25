@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles.css/SixthPage.css';
-import '../styles.css/media-query.css'
 import Playicon from '../Thumbnails/Eyeicon.svg';
 import Highlighticon from '../Thumbnails/highlights-icon.svg';
 import Circleicon from '../Thumbnails/circle-icon.svg'

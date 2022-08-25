@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles.css/FifthPage.css'
-import '../styles.css/media-query.css'
 import Googleimage from '../Thumbnails/google-img.png'
 import Nasalogo from '../Thumbnails/NASA_logo.svg.png'
 import Valvelogo from '../Thumbnails/Valve_logo.png'

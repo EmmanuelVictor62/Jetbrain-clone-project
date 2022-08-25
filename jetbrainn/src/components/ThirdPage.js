@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles.css/ThirdPage.css'
-import '../styles.css/media-query.css'
 
 const ThirdPage = () => {
   return (
