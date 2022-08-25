@@ -1,0 +1,102 @@
+.ThirdPage{
+    background-color: rgb(244,244,244);
+    padding:96px 100px 96px 100px;
+    font-family: sans-serif;
+}
+
+.ThirdPage__Heading{
+    margin: 0;
+    font-size:35px;
+    font-weight:530;
+    color:black;
+}
+
+.ThirdPage-Content-box{
+    height:256px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+.ThirdPage-Content-box__Wrapper-Box{
+    width:383px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ThirdPage-Content-box__Date{
+    height:24px;
+    font-weight:300;
+    font-size:16px;
+    color:rgb(91,91,92);
+    margin:0;
+}
+
+.ThirdPage-Content-box__Title{
+    margin:12px 0 0 0;
+    color:rgb(25,25,28);
+    font-size:20px;
+    font-weight:530;
+}
+
+.ThirdPage-Content-box__Description{
+    color:rgb(91,91,92);
+    margin:12px 0 0 0;
+    font-weight:300;
+    line-height: 24px;
+    width:360px;
+}
+
+.ThirdPage-Content-box__link{
+    margin: 14px 0 0 0;
+    text-decoration: none;
+    color:rgb(24,125,254);
+    font-weight:300;
+}
+
+
+
+/* Media Query */
+
+@media screen and (max-width:770px){
+    .ThirdPage{
+        padding:60px 20px 60px 20px;
+    }
+
+    .ThirdPage__Heading{
+        font-size:26px;
+    }
+
+    .ThirdPage-Content-box{
+        flex-direction: column;
+        height:fit-content;
+    }
+
+    .ThirdPage-Content-box__Wrapper-Box{
+       width: 100%;
+       margin-top: 30px;
+    }
+
+    .ThirdPage-Content-box__Date{
+        font-size:14px
+    }
+
+    .ThirdPage-Content-box__Title{
+        margin-top: 10px;
+        font-size: 17px;
+        width:80%;
+    }
+
+    .ThirdPage-Content-box__Description{
+        margin-top: 10px;
+        font-size: 14px;
+        width:85%;
+        line-height:21px;
+    }
+
+    .ThirdPage-Content-box__link{
+        font-size:14px;
+        margin-top:10px;
+    }
+}

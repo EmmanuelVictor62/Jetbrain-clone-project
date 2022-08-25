@@ -1,0 +1,129 @@
+.SixthPage{
+    padding:96px 104px 96px 104px;
+    font-family: sans-serif;
+    background-color: rgb(244,244,244);
+}
+
+.SixthPage__title{
+    font-size:43px;
+    font-weight:550;
+    color:black;
+}
+
+.SixthPage__content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:95.2%;
+}
+
+.SixthPage-content-box{
+    width:330px;
+    height: 246px;
+}
+
+.SixthPage-content__image-box{
+    margin: 0;
+    width:72px;
+}
+
+.SixthPage-content__image{
+    width:100%;
+}
+
+.SixthPage-content-box__title{
+    margin: 24px 0 0 0 ;
+    font-size:20px;
+    font-weight:530;
+    line-height:28px;
+}
+
+.SixthPage-content-box__description{
+    margin: 12px 0 0 0;
+    color:rgb(98,98,99);
+    line-height:24px;
+    font-weight:300;
+}
+
+.SixthPage-content-box__link-box{
+    margin:12px 0 0 0;
+}
+
+.SixthPage-content-box__link{
+    font-size:16px;
+    text-decoration: none;
+    font-weight:320;
+    box-sizing: border-box;
+    color:rgb(24,125,254);
+    cursor: pointer;
+}
+
+.SixthPage-content-box__link:hover{
+    text-decoration: underline;
+}
+
+.SixthPage-content__image--highlight-icon{
+    width: 82px;
+    height:72px;
+}
+
+.SixthPage-content__image--circle-icon{
+    width:86px;
+    height:72px;
+}
+
+
+
+
+/* Media Query */
+@media screen and (max-width:770px){
+    .SixthPage{
+        height:fit-content;
+        padding:64px 0px 64px 15px;
+    }
+
+    .SixthPage__title{
+        font-size:31px;
+        margin-top: 0px;
+        font-weight:550;
+    }
+
+    .SixthPage-content-box{
+        height:fit-content;
+    }
+
+    .SixthPage__content-wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 25px;
+    }
+
+    .SixthPage-content__image-box{
+        width:65px;
+    }
+
+    .SixthPage-content-box__title{
+        font-size:17px;
+        line-height: 24px;
+        margin-top: 16px;
+        width:90%
+    }
+
+    .SixthPage-content-box__description{
+        font-size:14px;
+        line-height: 22px;
+        width:70%
+    }
+
+    .SixthPage-content-box__link{
+        font-size:14px;
+    }
+
+    .SixthPage-content__image--highlight-icon{
+        width:75px;
+    }
+
+    .SixthPage-content__image--circle-icon{
+        width:75px;
+    }
+}

@@ -1,0 +1,142 @@
+.SecondPage{
+    padding: 0 100px;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-bottom:60px;
+}
+
+.SecondPage__description{
+    font-family: sans-serif;
+    margin-top: 96px;
+}
+
+.SecondPage__description-heading{
+    line-height:39px;
+    font-size: 29px;
+    color:rgba(25,25,28);
+    font-weight:320;
+    width:915px;
+}
+
+.SecondPage-link-div{
+    padding-left:4px;
+}
+
+.SecondPage-link-div--link{
+    color:rgb(24,125,254);
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.SecondPage-link-div--link:hover{
+    text-decoration: underline;
+}
+
+.SecondPage__description-subheading{
+    line-height:39px;
+    font-size: 29px;
+    color:rgba(25,25,28);
+    font-weight:320;
+    width:915px;
+}
+
+.SecondPage__list-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.SecondPage-list-item__wrapper{
+    display: flex;
+    list-style: none;
+    margin: 0 0 45px -8px;
+    padding:0;
+}
+
+.SecondPage-list-item__link{
+    background:rgb(244,244,244);
+    padding:14px 18px;
+    color: rgba(25,25,28,.7);
+    text-decoration: none;
+    font-size:16px;
+    font-family: sans-serif;
+    font-weight:200;
+    border-radius:24px;
+    width:78px;
+    height:24px;
+    letter-spacing: 0.024px;
+}
+
+.SecondPage-list-item__list{
+    margin: 0 8px;
+}
+
+.SecondPage-list-item__link:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+.SecondPage-list-item--blue{
+    padding:14px 32px;
+    border-radius:30px;
+    background-color: rgb(24,125,254);
+    opacity: 1;
+    color:white;
+    transition:opacity 0.2s;
+}
+
+.SecondPage-list-item--blue:hover{
+    opacity:0.9;
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+
+/* Media Query */
+
+.SecondPage{
+    width:90%;
+    padding:0px 0 0 10px;
+}
+
+.SecondPage__description{
+    font-size: 16px;
+    margin-top:64px;
+}
+
+.SecondPage__description-heading{
+    font-size:21px;
+    line-height: 30px;
+    width:82vw;
+    margin: 0;
+}
+
+.SecondPage__description-subheading{
+    font-size:20px;
+    font-weight:100;
+    line-height: 30px;
+    width: 80vw;
+    margin: 16px 0 0 0;
+}
+
+
+.SecondPage-list-item{
+    width:90%;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+.SecondPage-list-item__wrapper{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 35px;
+    margin-bottom: 35px;
+}
+
+.SecondPage-list-item__link{
+    font-size:13px;
+}

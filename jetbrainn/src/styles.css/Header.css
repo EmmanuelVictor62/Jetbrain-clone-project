@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Jetbrains;
+    src: url('../jetbrains-mono/web/eot/JetBrainsMono-Regular.eot');
+}
+
+@font-face {
+    font-family: Jetbrainslight;
+    src: url('../jetbrains-mono/ttf/JetBrainsMono-Regular.ttf');
+}
+
+.Header{
+    background:rgb(39,40,44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 234px;
+    height:72px;
+    width:100%;
+    font-family:Jetbrains
+}
+
+/* Logo Image */
+
+.Header__logo-box{
+    width:72px;
+    height:72px;
+}
+
+.Header__Logo{
+    width:100%;
+    height:100%;
+}
+
+/* Header nav style */
+.Header-nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size:19px;
+    padding:0px 12px;
+    white-space: nowrap;
+}
+
+.Header-nav--link{
+    color:rgba(255,255,255);
+    opacity: 0.6;
+    text-decoration:none;
+    font-weight:100;
+    font-family: sans-serif;
+    transition: opacity 0.2s;
+}
+
+.Header-nav--link:hover{
+    opacity: 1;
+}
+
+/* Header Icons */
+
+.Header--icon-1{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding:0px 10px;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.Header-icon__span{
+    padding:6px 8px;
+    border-radius:50%;
+    transition:all 0.1s ease;
+}
+
+.Header-icon__span:hover{
+    background:rgba(255,255,255,0.2);
+}
+
+.Header-icon-link{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fa-icon--nav{
+    color:rgba(255,255,255);
+    opacity: 0.6;
+    font-size: 18px;
+    transition: opacity 0.1s ease;
+    pointer-events: all;
+}
+
+.fa-icon--nav:hover{
+    opacity:1;
+}
+
+.bi-translate{
+    color:rgba(255,255,255);
+    opacity: 0.6;
+    font-size: 18px;
+    transition: opacity 0.1s;
+}
+
+.bi-translate{
+    opacity:1;
+}
+
+.NavBar{
+    display: none;
+}
+
+
+
+
+
+
+/* Media Query */
+
+
+
+@media screen and (max-width:770px){
+    .body{
+        overflow-x: hidden;
+        width:100vw;
+    }
+    .Header{
+        height:48px;
+        max-width: 91%;
+        overflow-x: hidden;
+        padding: 0px 18px;
+        display: flex;
+        justify-content: space-between;
+        column-gap:initial;
+        border-bottom: 1px solid rgb(52,52,52);
+    }
+
+     .Header__logo-box{
+        width:48px;
+        height:48px
+     }
+
+     .fa-icon--nav{
+        font-size: 14px;
+     }
+
+     .fa-bars{
+        font-size: 14px;
+        color:rgba(255,255,255,0.7)
+     }
+
+     .Header-nav{
+        justify-content: initial;
+        padding: 0;;
+     }
+
+
+     .Header-nav--1{
+        display: none;
+     }
+
+     .Header--icon-1{
+        display: none;
+     }
+
+     .Bi-search{
+        display: block;
+     }
+
+     .NavBar{
+        display: block;
+     }
+}
+

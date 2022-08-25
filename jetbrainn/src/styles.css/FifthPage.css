@@ -1,0 +1,291 @@
+.FifthPage{
+    margin:300px 104px 0px 104px;
+    font-family: sans-serif;
+}
+
+.FifthPage__title{
+    font-size:29px;
+    font-weight:320;
+    line-height:39px;
+    width:570px;
+    color:rgb(25,25,28);
+}
+
+.FifthPage-Company-image-wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+    justify-content: space-between;
+    margin-left: -37px;;
+}
+
+.Fifth-Company-image-wrapper__image{
+    width:100%;
+    height:100%;
+}
+
+.Fifth-Company-image-wrapper__image-google-box{
+    width:230px;
+}
+
+.Fifth-Company-image-wrapper__image-nasa-box{
+    width:100px;
+}
+
+.Fifth-Company-image-wrapper__image-valve-box{
+    width:120px
+}
+
+.Fifth-Company-image-wrapper__image-ubisoft-box{
+    width:130px;
+    height:20px;
+}
+
+.Fifth-Company-image-wrapper__image-twitter-box{
+    width:56px;
+}
+
+.Customer-section{
+    margin-top: 97px;
+    padding-bottom:96px;
+}
+
+.Customer-section-title{
+    color:black;
+    font-weight:600;
+    font-size:43px;
+    margin: 0;;
+}
+
+.Customer-section-subtitle{
+    margin-top:24px;
+    font-size:29px;
+    color:rgb(25,25,28);
+    line-height:39px;
+    max-width: 580px;
+    font-weight:300;
+}
+
+
+
+.Customer-wrapper-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Customer{
+    width:323px;
+    padding:24px 32px;
+    height:329px;
+    border:1px solid rgb(212,212,213);
+    transition:all 0.1s;
+    cursor: pointer;;
+}
+
+.Customer:hover{
+    border-color:rgb(39,40,44,.9);
+    cursor: pointer;
+}
+
+.Customer:hover .Customer__subdescription{
+    color:rgb(39,40,44);
+}
+
+.Customer:hover .Customer__read-link{
+    color:rgb(39,40,44);
+}
+
+.Customer__name{
+    margin:0;
+    font-size:20px;
+    font-weight:550;
+    cursor: pointer;
+}
+
+.Customer__description{
+    line-height:24px;
+    margin:24px 0 0 0;
+    font-size:16px;
+    letter-spacing: 0.024px;
+    font-weight:320;
+    color:rgb(39,40,44);
+    cursor: pointer;
+}
+
+.Customer__description--2{
+    width:310px;
+}
+
+.Customer__subdescription{
+    color:rgb(94,94,95);
+    font-size:16px;
+    line-height:24px;
+    margin:12px 0 0 0;
+    font-weight:320;
+    letter-spacing: 0.024px;
+    cursor: pointer;
+}
+
+.Customer__read-link-box{
+    margin-top: 12px;
+}
+
+.Customer__read-link{
+    font-size:16px;
+    text-decoration: none;
+    font-weight:320;
+    box-sizing: border-box;
+    color:rgb(24,125,254);
+}
+
+.Customer__read-link:hover{
+    text-decoration: underline;
+}
+
+.Customer__read-link-box--2{
+    margin-top:84px;
+}
+
+.Customer__read-link-box--3{
+    margin-top:83px;
+}
+
+.Customer-section__footer{
+    margin-top:25px;
+}
+
+.Customer-section__footer-button{
+    border-color:rgb(169,169,170);
+    border-radius:24px;
+    border-style:solid;
+    border-width:1px;
+    color:rgb(39,40,44);
+    display:inline-block;
+    font-family:JetBrains Sans;
+    font-weight:320;
+    font-size:16px;
+    text-decoration: none;
+    letter-spacing:0.024px;
+    line-height:24px;
+    padding:11px 31px;
+    text-align:center;
+    font-family:sans-serif;
+    cursor: pointer;
+}
+
+.Customer-section__footer-button:hover{
+    background-color:rgba(39,40,44,.05);
+}
+
+
+/* Media Query */
+
+@media screen and (max-width:770px){
+    .FifthPage{
+        width:100%;
+        margin:720px 20px 0px 15px
+    }
+    .FifthPage__title{
+        font-size: 20px;
+        width:80%;
+        line-height: 26px;
+        font-weight:100;
+    }
+
+    .FifthPage-Company-image-wrapper{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 40px 20px 40px 10px;
+        align-items: center;
+        row-gap: 54px;
+    }
+
+    .Fifth-Company-image-wrapper__image-google-box{
+        width:150px;
+        margin-left: -20px;
+    }
+
+    .Fifth-Company-image-wrapper__image-nasa-box{
+        width:75px;
+        display: flex;
+        align-items: center;
+    }
+
+    .Fifth-Company-image-wrapper__image-valve-box{
+        width:80px;
+        margin-left:-2px;
+    }
+
+    .Fifth-Company-image-wrapper__image-ubisoft-box{
+        width:80px;
+        height:fit-content;
+        margin-top: 17px;
+    }
+
+    .Fifth-Company-image-wrapper__image-twitter-box{
+        width:50px;
+        margin-top: 17px;
+    }
+
+
+
+
+    .Customer-section{
+        width:100%;
+    }
+
+    .Customer-section-title{
+        font-size:30px;
+    }
+
+    .Customer-section-subtitle{
+        font-size:20px;
+        line-height: 26px;
+        width:70%;
+        margin:16px 0px 16px 0px;
+    }
+
+    .Customer-wrapper-box{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .Customer{
+        width:80%;
+        padding:16px;
+        height:fit-content;
+    }
+
+    .Customer__name{
+        font-size:18px;
+        font-weight:530;
+    }
+
+    .Customer__description{
+        margin-top:16px;
+        font-size:14px;
+        line-height: 21px;
+        width:90%;
+    }
+
+    .Customer__subdescription{
+        font-size: 14px;
+        margin-top: 12px;
+        width:90%;
+        line-height:20px;
+    }
+
+    .Customer__read-link-box{
+        margin-top: 12px;
+    }
+
+    .Customer__read-link{
+        font-size: 14px;
+    }
+
+    .Customer-section__footer-button{
+        font-size:14px;
+        padding:9px 29px;
+    }
+}

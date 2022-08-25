@@ -1,0 +1,573 @@
+@font-face {
+    font-family: Jetbrains1;
+    src: url('../jetbrains-mono/ttf/JetBrainsMono-Medium.ttf');
+}
+
+.FirstPage{
+    background: rgb(39,40,44);
+    height:1170px;
+    box-sizing: border-box;
+}
+
+.FirstPage__Container{
+    padding:48px 84px 0px 84px;
+}
+
+.FirstPage__title-box{
+    box-sizing: border-box;
+    height:max-content;
+    margin-left:16px;
+}
+
+.FirstPage__heading{
+    color:white;
+    font-size:43px;
+    font-family:sans-serif;
+    font-weight:550;
+    width:810px;
+    line-height: 49px;
+    margin-bottom:0;
+    margin-top: 29px;
+}
+
+.FirstPage__subheading{
+    font-family:sans-serif;
+    font-weight:300;
+    font-size:29px;
+    width:810px;
+    color:white;
+    margin:12px 0px 0px 0px ;
+}
+
+/* Tool Box */
+
+.Tool-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    column-gap:70px;
+    margin-top:36px;
+    width:100%;
+}
+
+.Tool-box__wrapper{
+    display: flex;
+    margin:0px 16px;
+}
+
+.Tool-box-innner{
+    display: flex;
+    flex-direction: column;
+}
+
+.Tool-box-inner__Heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 17px;
+}
+
+.bi-ui-checks-grid{
+    color:white;
+    font-size:23px;
+}
+
+.Tool-box-inner-Title{
+    color:white;
+    font-size:20px;
+    font-weight:530;
+    font-family:sans-serif;
+    margin:0;
+}
+
+.Tool-box-inner__Description{
+    color:rgb(191,191,192);
+    font-size:19px;
+    font-weight:320;
+    font-family: sans-serif;
+    max-width: 200px;
+    margin-top:8px;
+    margin-bottom: 8px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.Tool-box-inner__link{
+    font-size:19px;
+    font-weight:320;
+    color:rgb(76,166,255);
+    font-family:sans-serif;
+    text-decoration: none;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.Tool-box-inner__link:hover{
+    text-decoration: underline;
+}
+
+.Tool-box__2{
+    width: 283px;
+    margin: 0px 16px;
+}
+
+.bi-people{
+    color:white;
+    font-size:23px;
+}
+
+.Tool-box-inner__Description--2{
+    max-width:283px;
+}
+
+.bi-image-alt{
+    color:white;
+    font-size:21px;
+}
+
+.bi-bookmark-fill{
+    color:white;
+    font-size:21px;
+}
+
+
+
+
+/* Banner Styles */
+.First-Page__Banner-Wrapper{
+    display: grid;
+    align-items: center;
+    margin-top: 48px;
+    grid-template-columns: 590px 400px;
+    justify-content:space-between;
+}
+
+.Banner-1{
+    height:580px;
+    width: 730px;
+    border-radius: 16px;
+    background-color: black;
+    background-image: url('https://www.jetbrains.com/img/banners-home-page/bg-on-premises.svg');
+    background-position: right -10px bottom -230px;
+    background-size:570px;
+    background-repeat: no-repeat;
+    padding:35px 48px 48px 48px;
+    margin:0 8px 0 15px
+}
+
+.Banner-1__Wrapper-link{
+    text-decoration: none;
+}
+
+.Banner-1__image-box{
+    width:103px;
+    margin-left: -21px;
+}
+
+.Firstlogo{
+    width:100%;
+}
+
+.Banner-1__Title-box{
+    margin-top:10px;
+}
+
+.Banner-1__Title{
+    font-size: 43px;
+    font-weight: 530;
+    font-family: sans-serif;
+    color:white;
+    width:480px;
+    height: 98px;
+    margin:0px 0px 0px 0px;
+    line-height: 49px;
+    text-decoration: none;
+}
+
+.Banner-1--BETA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    font-size: 13px;
+    text-align: center;
+    color:white;
+    border:1px solid white;
+    padding:3px 9px;
+    border-radius:4px;
+    height:20px;
+    width:34px;
+    margin:6px 0px 0px 10px;
+}
+
+.Banner-1__Title-inner-div{
+    display: flex;
+    align-items: center;
+}
+
+.Banner-1__description-box{
+    margin: 24px 0 0 0;
+    display: flex;
+}
+
+.Banner-1__description{
+    font-size:29px;
+    font-family:sans-serif;
+    font-weight:320;
+    line-height: 39px;
+    width:420px;
+    color:white;
+    opacity: 0.9;
+    margin:0;
+}
+
+/* Button */
+
+.Banner__button{
+    height:48px;
+    width:200px;
+    padding:12px 32px;
+    font-family: sans-serif;
+    background-color: white;
+    color:#27282C;
+    font-size:16px;
+    border-radius: 24px;
+    border:none;
+    font-weight:340;
+    margin-top: 215px;
+}
+
+.Banner__2-Wrapper{
+    display: flex;
+    flex-direction: column;
+    width:fit-content
+}
+
+.First-Tile{
+    width:336px;
+    height:280px;
+    background:url('https://www.jetbrains.com/img/banners-home-page/bg-riderflow.jpg');
+    padding:32px;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left: -15px;
+    line-height: 16px;
+    border-radius: 16px;
+}
+
+.First-Tile__Description-Wrapper{
+    width:269px;
+}
+
+.First-Tile__image-box{
+    width:80px;
+    margin-top: -12px;
+    margin-left:-12px;
+}
+
+.First-Tile__image{
+    width:100%;
+}
+
+.First-Tile__Title{
+    font-size:20px;
+    font-weight:530;
+    font-family: sans-serif;
+    color:white;
+    margin:-5px 0 0 0;
+}
+
+.First-Tile__subtitle{
+    font-family:Helvetica, sans-serif;
+    color:rgba(255,255,255,.9);
+    font-size: 16px;
+    font-weight:330;
+    line-height:24px;
+    margin:20px 0 0 0;
+}
+
+.First-Tile__description{
+    font-family: sans-serif;
+    font-size:13px;
+    font-weight:530;
+    color:rgba(255,255,255,.6);
+    line-height:20px;
+    margin:12px 0 0 0;
+    width:238px;
+}
+
+.First-Tile__button{
+    font-size:16px;
+    font-family: sans-serif;
+    font-weight:300;
+    color:white;
+    background-color: transparent;
+    border:1px solid rgba(255,255,255,.3);
+    height:36px;
+    width:117px;
+    padding:5px 15px 6px 15px;
+    border-radius:24px;
+    transition: all 0.2s;
+    cursor:pointer;
+    margin-top: 43px;
+}
+
+.First-Tile__button:hover{
+    background-color: rgba(255,255,255,.1);
+    border-color:rgba(255,255,255,.6)
+}
+
+
+.Banner__2-Second-Tile{
+    width:336px;
+    height:250px;
+    background: linear-gradient(54.4deg,#771f89 -28.5%,#834cef 30.36%,#636cea 99.19%);
+    padding:32px;
+    margin-left: -15px;
+    line-height: 16px;
+    border-radius: 16px;
+    margin-top: 12px;
+}
+
+.Second-Tile__image-box{
+    width:40px;
+}
+
+.Second-Tile__image{
+    width:100%;
+}
+
+.Second-Tile__Description-Wrapper{
+    width:269px;
+}
+
+.Second-Tile__Title{
+    font-size:20px;
+    font-weight:530;
+    font-family: sans-serif;
+    color:white;
+    margin:19px 0 0 0;
+    line-height: 24px;
+    width:200px;
+}
+
+
+
+
+
+/* Css media Query */
+@media screen and (max-width:770px){
+    .FirstPage{
+        height:fit-content!important
+    }
+
+    .FirstPage__Container{
+        padding:32px 0 0 0;
+        margin:0;
+    }
+
+    .FirstPage__heading{
+        margin:0;
+        font-size:33px;
+        font-weight: 400;
+        width:100%;
+    }
+
+
+    .FirstPage__subheading{
+        width:90%;
+        font-size:22px;
+        font-weight:300;
+        line-height:30px;
+        color:rgb(255,255,255,.9)
+    }
+
+    .Tool-box{
+        flex-direction: column;
+        align-items: initial;
+        padding-left: 20px;
+        row-gap: 32px;
+    }
+
+    .Tool-box__wrapper{
+        margin:0;
+    }
+
+    .bi-ui-checks-grid{
+        font-size:18px;
+    }
+
+    .bi-people{
+        font-size:18px;
+    }
+
+    .bi-image-alt{
+        font-size:18px;
+    }
+
+    .bi-bookmark-fill{
+        font-size:18px;
+    }
+
+    .Tool-box-inner-Title{
+        font-size: 18px;
+    }
+
+    .Tool-box-inner__Heading{
+        column-gap: 12px;
+    }
+
+    .Tool-box__2{
+        margin: 0;
+        width: initial;
+    }
+
+    .Tool-box-inner__Description{
+        max-width:100%;
+        font-size:16px;
+        color:rgba(255,255,255,.7)
+    }
+
+    .Tool-box-inner__Description--2{
+        font-size: 16px;
+        line-height: 26px;
+        width:80%;
+    }
+
+    .last{
+        width: 90%;
+    }
+
+    .Tool-box-inner__link{
+        font-size:16px;
+    }
+
+
+
+
+    /* Banner Tiles */
+
+    .First-Page__Banner-Wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .Banner-1{
+        width:85%;
+        height: 368px;
+        padding: 16px;
+        background-size: 290px;
+        background-position-x:calc(100% + 65px);
+        background-position-y: calc(100% + 115px);
+        margin: 0;;
+    }
+
+    .Banner-1__image-box{
+        width:70px;
+    }
+
+    .Banner-1__Title{
+        font-size:24px;
+        line-height: 28px;
+        height:fit-content
+    }
+
+    .Banner-1--BETA{
+        padding:3px 9px;
+        font-size:11px;
+        margin-left: 8px;
+        height:17px;
+        width:max-content;
+    }
+
+    .Banner-1__Title-box{
+        margin: 0px 0 0 0;
+    }
+
+    .Banner-1__description-box{
+        margin: 15px 0 0 0;
+    }
+
+    .Banner-1__description{
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+    .Banner__button{
+        margin: 14px 0 0 0;
+        padding:8px 16px;
+        font-size: 14px;
+        width:fit-content;
+        height:fit-content
+    }
+
+
+    .Banner__2-Wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 20px;
+        width:100%;
+        align-items: center;
+    }
+
+    .First-Tile{
+        width:85%;
+        padding: 16px;
+        margin: 0;
+        height:fit-content;
+        margin-bottom: 60px;
+    }
+
+    .First-Tile__image-box{
+        width:65px;
+    }
+
+    .First-Tile__Title{
+        font-size: 17px;
+        font-weight: 530;
+    }
+
+    .First-Tile__subtitle{
+        font-size: 14px;
+        line-height: 22px;
+        width:90%;
+    }
+
+    .First-Tile__description{
+        font-size: 11px;
+        width:95%;
+    }
+
+    .First-Tile__button{
+        font-size: 14px;
+        padding:7px 15px;
+        margin-top:21px;
+        width:fit-content;
+        height: fit-content;
+    }
+
+    .Banner__2-Second-Tile{
+        width:85%;
+        padding:16px;
+        margin: 0;
+        height: fit-content;
+    }
+
+    .Second-Tile__image-box{
+        width:38px;
+    }
+
+    .Second-Tile__Title{
+        margin:12px 0 0 0;
+        font-size: 18px;
+        font-weight: 550;
+        width: 70%;
+    }
+
+   
+}
+
