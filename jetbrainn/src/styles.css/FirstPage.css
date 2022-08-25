@@ -374,7 +374,7 @@
 
     .FirstPage__subheading{
         width:90%;
-        font-size:22px;
+        font-size:24px;
         font-weight:300;
         line-height:30px;
         color:rgb(255,255,255,.9)
@@ -392,23 +392,23 @@
     }
 
     .bi-ui-checks-grid{
-        font-size:18px;
+        font-size:19px;
     }
 
     .bi-people{
-        font-size:18px;
+        font-size:19px;
     }
 
     .bi-image-alt{
-        font-size:18px;
+        font-size:19px;
     }
 
     .bi-bookmark-fill{
-        font-size:18px;
+        font-size:19px;
     }
 
     .Tool-box-inner-Title{
-        font-size: 18px;
+        font-size: 19px;
     }
 
     .Tool-box-inner__Heading{
@@ -422,14 +422,14 @@
 
     .Tool-box-inner__Description{
         max-width:100%;
-        font-size:16px;
+        font-size:19px;
         color:rgba(255,255,255,.7)
     }
 
     .Tool-box-inner__Description--2{
-        font-size: 16px;
+        font-size: 18px;
         line-height: 26px;
-        width:80%;
+        width:95%;
     }
 
     .last{
@@ -437,7 +437,7 @@
     }
 
     .Tool-box-inner__link{
-        font-size:16px;
+        font-size:18px;
     }
 
 
