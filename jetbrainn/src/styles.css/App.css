@@ -1,10 +1,4 @@
-@font-face {
-    font-family: Jetbrains;
-    src: url('../jetbrains-mono/web/woff/JetBrainsMono-Regular.woff');
-}
-
 .body{
-    font-family: Jetbrains;
     margin:0;
     padding:0;
 }

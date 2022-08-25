@@ -1,8 +1,3 @@
-@font-face {
-    font-family: Jetbrains1;
-    src: url('../jetbrains-mono/ttf/JetBrainsMono-Medium.ttf');
-}
-
 .FirstPage{
     background: rgb(39,40,44);
     height:1170px;

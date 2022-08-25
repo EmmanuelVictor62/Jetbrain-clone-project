@@ -1,7 +1,6 @@
 import React from 'react'
 import Logo from '../Thumbnails/Jetbrain-logo.png'
 import '../styles.css/Header.css'
-import '../styles.css/media-query.css'
 
 const Header = () => {
   return (
