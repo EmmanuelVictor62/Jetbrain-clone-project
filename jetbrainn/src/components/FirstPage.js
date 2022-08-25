@@ -1,3 +1,4 @@
+import React from 'react'
 import '../styles.css/FirstPage.css'
 import Firstlogo from '../Thumbnails/jetbrains-space-image.png'
 import Riderlogo from '../Thumbnails/rider-flow-logo.png'
